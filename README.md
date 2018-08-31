@@ -37,7 +37,7 @@ delay(1000);
 
 At 12 ms I can no longer perceive the blinking. However if I log "On" and "Off" via serial and then check the serial monitor (see code and picture below), I can tell that it is still blinking.
 
-![monitor](IDD-Fa18-Lab1-ckb77/Screen Shot 2018-08-31 at 2.21.08 PM.png)
+![monitor](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/Screen%20Shot%202018-08-31%20at%202.21.08%20PM.png)
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
