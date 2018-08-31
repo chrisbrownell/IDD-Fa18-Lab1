@@ -46,7 +46,7 @@ At 12 ms I can no longer perceive the blinking. However if I log "On" and "Off" 
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+https://drive.google.com/file/d/1ob3-plXBwA4QpNZY6DX04zCmPTjPvqUF/view?usp=sharing
 
 
 ## Part D. Manually fade an LED
