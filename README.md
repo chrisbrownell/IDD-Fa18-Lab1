@@ -68,8 +68,15 @@ The presence of this resistor means that I cannot use the full range of the pote
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+Need to update the PWM pin in the initialization of variable 'led' from pin 9 (in the sample code) to pin 11 (for my board). 
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
+analogWrite is a function that allows us to write analog output via a digital signal by rapidly flipping the singal 
+on and off over time. The function supports a duty cycle from 0 (signal on 0% of time) to 255 (signal on 100% of time). 
+ 
+digitalWrite only supports binary on/off (HIGH/LOW) signal, but the analogWrite uses the same underlying technology
+to approximate a broader range of "values" coming out of a PWM pin.
 
 ## Part F. FRANKENLIGHT!!!
 
