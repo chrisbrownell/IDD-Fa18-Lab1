@@ -45,7 +45,7 @@ At 12 ms I can no longer perceive the blinking. However if I log "On" and "Off" 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/Lab1-Blink-Dice-External.ino
+[LED Die Roll Code](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/Lab1-Blink-Dice-External.ino)
     
 
 
@@ -53,7 +53,7 @@ https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/Lab1-Blink-Dice-External.in
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-https://drive.google.com/file/d/1ob3-plXBwA4QpNZY6DX04zCmPTjPvqUF/view?usp=sharing
+[Video of LED Die Roll](https://drive.google.com/file/d/1ob3-plXBwA4QpNZY6DX04zCmPTjPvqUF/view?usp=sharing)
 
 
 ## Part D. Manually fade an LED
@@ -63,6 +63,8 @@ https://drive.google.com/file/d/1ob3-plXBwA4QpNZY6DX04zCmPTjPvqUF/view?usp=shari
 While I cannot visibly discern whether I am using the full range of the potentiometer, theoretically I should not be 
 able to use the whole range because the 220 ohm resistor in the circuit is necessary to prevent disaster (where R = 0). 
 The presence of this resistor means that I cannot use the full range of the potentiometer.
+
+[Video of Potentiometer Setup](https://drive.google.com/file/d/1hDM7mewvKbYr2JTutsssGC4XCfeKRev8/view?usp=sharing)
 
 ## Part E. Fade an LED using Arduino
 
