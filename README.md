@@ -72,6 +72,8 @@ The presence of this resistor means that I cannot use the full range of the pote
 
 Need to update the PWM pin in the initialization of variable 'led' from pin 9 (in the sample code) to pin 11 (for my board). 
 
+[Video of Arduino Fade](https://drive.google.com/file/d/1Zek9LX1zMchV1ZmMnk8DGn4SOnAFupx3/view?usp=sharing)
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
 analogWrite is a function that allows us to write analog output via a digital signal by rapidly flipping the singal 
