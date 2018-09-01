@@ -35,7 +35,7 @@ delay(1000);
 
 **c. What circuit element would you want to add to protect the board and external LED?**
 
-????
+A resistor
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
