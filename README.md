@@ -4,18 +4,22 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+![Breadboard](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/BreadboardSetup.JPG)
 
 
 ## Part B. Manually Blink a LED
 
-**a. What color stripes are on a 100 Ohm resistor?**
+**a. What color stripes are on a 220 Ohm resistor?**
 
-Brown - Black - Black (Our resistors have a red tolerance line which is a little confusing.)
+Our resistors are Red - Red - Black - Black which looks like 2 - 2 - 0 (multiplier = 1). 
+
+But as it's defined in the slides, we'd expect 220 ohms to be Red - Red - Brown which would connote 2 - 2 (multiplier = 10).
  
 **b. What do you have to do to light your LED?**
 
 Press and hold the button. See picture.
+
+![ButtonHold](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/ButtonHold.JPG)
 
 ## Part C. Blink a LED using Arduino
 
@@ -41,6 +45,9 @@ At 12 ms I can no longer perceive the blinking. However if I log "On" and "Off" 
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
+https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/Lab1-Blink-Dice-External.ino
+    
+
 
 ### 2. Blink your LED
 
@@ -53,6 +60,9 @@ https://drive.google.com/file/d/1ob3-plXBwA4QpNZY6DX04zCmPTjPvqUF/view?usp=shari
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
+While I cannot visibly discern whether I am using the full range of the potentiometer, theoretically I should not be 
+able to use the whole range because the 220 ohm resistor in the circuit is necessary to prevent disaster (where R = 0). 
+The presence of this resistor means that I cannot use the full range of the potentiometer.
 
 ## Part E. Fade an LED using Arduino
 
