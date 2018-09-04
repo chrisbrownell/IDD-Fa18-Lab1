@@ -97,7 +97,7 @@ on and off over time. The function supports a duty cycle from 0 (signal on 0% of
 digitalWrite only supports binary on/off (HIGH/LOW) signal, but the analogWrite uses the same underlying technology
 to approximate a broader range of "values" coming out of a PWM pin.
 
-## Part F. FRANKENLIGHT!!!
+## \[INITIAL SUBMISSION at 9:30a\] Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
@@ -137,13 +137,13 @@ Will update later on 9/4.
 
 **Include any schematics or photos in your lab write-up.**
 
-## UPDATED Part F. FRANKENLIGHT!!!
+## \[UPDATED SUBMISSION at 12:45p\] Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 After spending some more time with this, I believe the proper schematic is this:
 
-![schematic2](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/IMG_1364.JPG)
+![schematic2](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/IMG_1364.jpg)
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
@@ -179,5 +179,5 @@ the motor and LED began to run. See video.
 
 **Include any schematics or photos in your lab write-up.**
 
-![schematic3](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/IMG_1367.JPG)
+![schematic3](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/IMG_1367.jpg)
 
