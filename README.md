@@ -41,7 +41,17 @@ A resistor
 
 At 12 ms I can no longer perceive the blinking. However if I log "On" and "Off" via serial and then check the serial monitor (see code and picture below), I can tell that it is still blinking.
 
-[Sketch with On/Off logging](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/part-C-1-d.ino)
+```
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  Serial.println("On");              // log the "On" action
+  delay(12);                       // wait for 12ms
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  Serial.println("Off");             // log the "Off" action
+  delay(12);                       // wait for 12ms
+}
+```
 
 ![monitor](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/Screen%20Shot%202018-08-31%20at%202.21.08%20PM.png)
 
