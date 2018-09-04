@@ -136,3 +136,48 @@ As of class on 9/4, I was not able to get this light working. Will update later 
 Will update later on 9/4.
 
 **Include any schematics or photos in your lab write-up.**
+
+## UPDATED Part F. FRANKENLIGHT!!!
+
+### 1. Take apart your electronic device, and draw a schematic of what is inside. 
+
+After spending some more time with this, I believe the proper schematic is this:
+
+![schematic2](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/IMG_1364.JPG)
+
+**a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+
+No computation.
+
+**b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+
+The one sensor is a simple switch which powers the motor and LED from the battery.
+
+**c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+
+3 AA batteries in series, 4.5 V total.
+
+**d. Is information stored in your device? Where? How?**
+
+No information storage.
+
+### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
+
+There is already an LED in this device. 
+
+**Describe what you did here.**
+
+The best way to hijack this device is to simply provide power and ground in such
+a way that the switch is functional, despite the lack of batteries. Using the arduino, I powered the device with 5V and
+the motor and LED began to run. See video.
+
+### 3. Build your light!
+
+**Make a video showing off your Frankenlight.**
+
+[Video of Frankenlight](https://drive.google.com/file/d/1PL77QEYzMlmep3kXpjjW1qfrZHtQ6oj9/view?usp=sharing)
+
+**Include any schematics or photos in your lab write-up.**
+
+![schematic3](https://github.com/chrisbrownell/IDD-Fa18-Lab1-ckb77/blob/master/IMG_1367.JPG)
+
